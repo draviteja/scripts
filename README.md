@@ -1,13 +1,33 @@
-This Repo contains some scripts to automate stuff.
+Misc tools
 
-##Git_Add_All.sh
 
-This script makes the task of doing
+This folder contains some scripts to automate stuff.
+
+1. xml_labelmap.py
+
+This script find hard codes strings and auto writes to the given UiLabelMap file.
+
+-switch to project root directory
+-run the following commands
+
+windows
+
+prerequisite:
+1.python3.4 or above (path need to be set after installation)
+2.lxml module (you can install with command "easy_install lxml")
+
 
 ```
-git add -A
-git commit -m 'Commit Message'
-git push origin master
+copy vasistautils\tools\xml_labelmap.py .
+python xml_labelmap.py
 
 ```
-a bit easier. By using this script you only need to type the commit message to do all this.
+
+ubuntu
+
+```
+cp vasistautils\tools\xml_labelmap.py .
+python3 xml_labelmap.py
+
+```
+
