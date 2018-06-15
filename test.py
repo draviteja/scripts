@@ -1,1 +1,1 @@
-print("This is raviteja daggupati")
+print("This is raviteja")
